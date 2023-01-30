@@ -1,0 +1,40 @@
+@import '../utilities.scss';
+
+.header {
+	width: 100vw;
+	height: 70px;
+	&__container {
+		width: 80%;
+		height: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: auto;
+	}
+
+	.navmenu-wrapper {
+		ul {
+			list-style: none;
+			text-decoration: none;
+			display: flex;
+			gap: $padding;
+			align-items: center;
+			li {
+				a {
+					text-decoration: none;
+					color: $dark-black;
+				}
+				a.active {
+					background: $dark-black;
+					color: #fff;
+					text-underline-offset: 10px;
+					// width:100%;
+					padding: 2px 4px;
+					text-decoration: underline;
+					text-decoration-color: $accent-orange;
+				}
+			}
+		}
+	}
+
+}

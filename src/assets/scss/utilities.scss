@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$accent-orange: #E76100;
+$dark-black: #141414;
+$bg-color: #F8F8F8;
+$grid-bg: #EEEEEE;
+
+$main-font: 'Poppins';
+$secondary-font: 'Inter';
+$header-size: 64px;
+$accent-size: 24px;
+$small-title-size: 16px;
+$body-size: 15px;
+
+$padding: 2rem;
+$margin: 2rem;
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: $main-font;
+}
+
+body {
+	background: $bg-color;
+}

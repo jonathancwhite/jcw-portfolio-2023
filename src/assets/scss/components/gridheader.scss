@@ -1,0 +1,14 @@
+@import '../utilities.scss';
+
+.gridHeader {
+	margin-top: $margin;
+	width: 100%;
+	&__container {
+		width: 80%;
+		margin: auto;
+	}
+
+	&__contact {
+		display: grid;
+	}
+}

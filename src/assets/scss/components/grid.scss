@@ -1,0 +1,9 @@
+@import '../utilities.scss';
+
+.grid {
+	margin-top: $margin;
+	display: grid;
+	background-color: $grid-bg;
+	grid-template-columns: 10% 20% 20% 20% 20% 10%;
+	gap: 1rem;
+}
