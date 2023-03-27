@@ -11,7 +11,7 @@ const Hero = () => {
 					<p>
 						On a mission to make memorable experiences
 						through digital design by pushing the boundaries
-						of what's possible with technology.
+						of what&apos;s possible with technology.
 					</p>
 				</div>
 			</div>

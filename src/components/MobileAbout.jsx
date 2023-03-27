@@ -8,9 +8,9 @@ const MobileAbout = () => {
 		<h5>About Me</h5>
 		<div className="mobileAbout__text">
 			<Image src={headshot} alt="Jonathan C White's headshot" height={100} width={100}/>
-			<p>For the last 7 years, I've worked as a Software Engineer & Web Developer with some amazing
+			<p>For the last 7 years, I&apos;ve worked as a Software Engineer & Web Developer with some amazing
 				coworkers, agencies, and clients in the digital space. My expertise lies in website design
-				and development, and I love getting hands-on. I'm a multidisciplinary jack-of-all-trades,
+				and development, and I love getting hands-on. I&apos;m a multidisciplinary jack-of-all-trades,
 				with a skill set that ranges from conceptual thinking to creating high-quality software.
 			</p>
 		</div>

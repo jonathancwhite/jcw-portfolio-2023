@@ -8,7 +8,7 @@ const MobileServices = () => {
   return (
 	<div className="mobileServices">
 		<h5 className='centered'>My Services</h5>
-		<p><span className='orange'>*</span> I don't offer more than what I can take on and I don't nominate services I am not equipped to take on. I've spent the last 6 years perfecting my craft so that I can give you the best possible product and with that comes decisions to only offer so many services. If you're looking for anything more, please feel free to contact my agency, Kodiak Agency. <span className="orange">*</span></p>
+		<p><span className='orange'>*</span> I don&apos;t offer more than what I can take on and I don&apos;t nominate services I am not equipped to take on. I&apos;ve spent the last 6 years perfecting my craft so that I can give you the best possible product and with that comes decisions to only offer so many services. If you&apos;re looking for anything more, please feel free to contact my agency, Kodiak Agency. <span className="orange">*</span></p>
 
 		<div className="mobileServices__item">
 			<div className="mobileServices__item--card">

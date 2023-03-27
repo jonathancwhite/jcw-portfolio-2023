@@ -38,7 +38,7 @@ const ServicesGrid = ({gridStyle}) => {
 
 				</div>
 				<div className="col filled gridText">
-					<p>I don't offer more than what I can take on and I don't nominate services I am not equipped to take on. I've spent the last 6 years perfecting my craft so that I can give you the best possible product and with that comes decisions to only offer so many services. If you’re looking for anything more, please feel free to contact my agency, Kodiak Agency.</p>
+					<p>I don&apos;t offer more than what I can take on and I don&apos;t nominate services I am not equipped to take on. I&apos;ve spent the last 6 years perfecting my craft so that I can give you the best possible product and with that comes decisions to only offer so many services. If you&apos;re looking for anything more, please feel free to contact my agency, Kodiak Agency.</p>
 				</div>
 				<div className="col">
 

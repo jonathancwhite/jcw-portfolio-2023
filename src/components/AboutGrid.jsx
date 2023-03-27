@@ -236,9 +236,9 @@ const AboutGrid = ({gridStyle}) => {
 
 				</div>
 				<div className="col filled gridText">
-					<p className='aboutText'>For the last 7 years, I've worked as a Software Engineer & Web Developer with some amazing
+					<p className='aboutText'>For the last 7 years, I&apos;ve worked as a Software Engineer & Web Developer with some amazing
 						coworkers, agencies, and clients in the digital space. My expertise lies in website design
-						and development, and I love getting hands-on. I'm a multidisciplinary jack-of-all-trades,
+						and development, and I love getting hands-on. I&apos;m a multidisciplinary jack-of-all-trades,
 						with a skill set that ranges from conceptual thinking to creating high-quality software.</p>
 				</div>
 				<div className="col">

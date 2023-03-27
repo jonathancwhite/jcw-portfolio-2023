@@ -13,7 +13,7 @@ const Footer = () => {
 			<ArrowUpwardIcon />
 		</div>
 		<div className="footer__contact">
-			<h3>That's all for now.</h3>
+			<h3>That&apos;s all for now.</h3>
 			<h6>CONTACT ME</h6>
 			<a href="mailto:contact@jonathancwhite.com"><p>contact@jonathancwhite.com</p></a>
 		</div>
