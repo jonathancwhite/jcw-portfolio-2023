@@ -193,6 +193,10 @@
 	width: 100vw;
 	height: 100vh;
 	z-index: 99;
+	overflow: hidden;
+	.mobileNav__menu--items {
+		display: flex;
+	}
 }
 
 @media screen and (max-width: 1000px) {

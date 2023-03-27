@@ -6,12 +6,23 @@ import { MenuOpen } from '@mui/icons-material';
 
 const Header = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
+
 	function openMenu() {
-		menuOpen ? setMenuOpen(false) : setMenuOpen(true);
+
+		const body = document.querySelector('html');
+
+		if (menuOpen) {
+			setMenuOpen(false);
+			body.classList.remove('no-scroll');
+		} else {
+			setMenuOpen(true);
+			body.classList.add('no-scroll');
+		}
 	}
 
 	function closeMenu() {
 		setMenuOpen(false);
+		setLockScroll(false);
 	}
   const router = useRouter();
   return (
