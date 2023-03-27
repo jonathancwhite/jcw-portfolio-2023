@@ -8,6 +8,7 @@ import lawrenceAmmo from '../assets/img/lawrenceammo.png';
 import mtCommodoreAme from '../assets/img/mtcommodoreame.png';
 import yhm from '../assets/img/yankeehill.png';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Grid = ({gridStyle}) => {
 
@@ -102,7 +103,7 @@ const Grid = ({gridStyle}) => {
 
 				</div>
 				<div className="col filled">
-					<Image src={kodiakAgency} alt="Kodiak Agency Website Preview" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}/>
+					<Link href="https://builtbykodiak.com" target='_blank'><Image src={kodiakAgency} alt="Kodiak Agency Website Preview" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}/></Link>
 				</div>
 				<div className="col">
 
@@ -156,7 +157,7 @@ const Grid = ({gridStyle}) => {
 
 				</div>
 				<div className="col filled">
-					<Image src={ballisticAgency} alt="Ballistic Agency Website Design" onMouseEnter={handleMouseEnterBA} onMouseLeave={handleMouseLeaveBA}/>
+					<Link href="https://ballisticagency.com" target='_blank'><Image src={ballisticAgency} alt="Ballistic Agency Website Design" onMouseEnter={handleMouseEnterBA} onMouseLeave={handleMouseLeaveBA}/></Link>
 				</div>
 				<div className="col">
 
@@ -195,7 +196,7 @@ const Grid = ({gridStyle}) => {
 
 				</div>
 				<div className="col filled">
-					<Image src={mileHigh} alt="Mile High Website Design" onMouseEnter={handleMouseEnterMH} onMouseLeave={handleMouseLeaveMH} />
+					<Link href="https://milehighshooting.com" target='_blank'><Image src={mileHigh} alt="Mile High Website Design" onMouseEnter={handleMouseEnterMH} onMouseLeave={handleMouseLeaveMH} /></Link>
 				</div>
 				<div className="col">
 
@@ -282,7 +283,7 @@ const Grid = ({gridStyle}) => {
 
 				</div>
 				<div className="col filled">
-					<Image src={maxOrdGear} alt="Max Ord Gear Website" onMouseEnter={handleMouseEnterMO} onMouseLeave={handleMouseLeaveMO} />
+					<Link href="https://maxordgear.com" target='_blank'><Image src={maxOrdGear} alt="Max Ord Gear Website" onMouseEnter={handleMouseEnterMO} onMouseLeave={handleMouseLeaveMO} /></Link>
 				</div>
 				<div className="col">
 
@@ -375,7 +376,7 @@ const Grid = ({gridStyle}) => {
 
 				</div>
 				<div className="col filled">
-					<Image src={mtCommodoreAme} alt="Mt. Commodore AME Church Website"  onMouseEnter={handleMouseEnterMC} onMouseLeave={handleMouseLeaveMC}/>
+					<Link href="https://mtcommodoreame.com" target='_blank'><Image src={mtCommodoreAme} alt="Mt. Commodore AME Church Website"  onMouseEnter={handleMouseEnterMC} onMouseLeave={handleMouseLeaveMC}/></Link>
 				</div>
 				<div className="col">
 
@@ -423,7 +424,7 @@ const Grid = ({gridStyle}) => {
 
 				</div>
 				<div className="col filled">
-					<Image src={yhm} alt="Yankee Hill Machining Website" onMouseEnter={handleMouseEnterYHM} onMouseLeave={handleMouseLeaveYHM}/>
+					<Link href="https://yhm.net" target='_blank'><Image src={yhm} alt="Yankee Hill Machining Website" onMouseEnter={handleMouseEnterYHM} onMouseLeave={handleMouseLeaveYHM}/></Link>
 				</div>
 				<div className="col">
 

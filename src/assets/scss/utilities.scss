@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 $accent-orange: #E76100;
 $dark-black: #141414;
@@ -21,6 +22,39 @@ $margin: 2rem;
 	font-family: $main-font;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	background: $bg-color;
+}
+
+.orange {
+	color: $accent-orange;
+}
+
+.dark {
+	background: #000;
+	color: #fff;
+}
+
+.kodiak {
+	background: #976B4E;
+	color: #fff;
+	max-height: 175px;
+	a {
+		height: 175px;
+	}
+	img {
+		object-fit: contain !important;
+		// max-height: 100% !important;
+	}
+}
+
+.portrait {
+	img {
+		max-height: 589px !important;
+		z-index: 999;
+	}
 }

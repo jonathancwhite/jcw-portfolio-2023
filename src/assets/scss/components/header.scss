@@ -10,6 +10,15 @@
 		justify-content: space-between;
 		align-items: center;
 		margin: auto;
+		.logo-wrapper {
+			a {
+				color: #000;
+				text-decoration: none;
+				&:visited {
+					color: #000;
+				}
+			}
+		}
 	}
 
 	.navmenu-wrapper {
