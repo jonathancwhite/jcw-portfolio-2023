@@ -21,6 +21,7 @@ const Header = () => {
 	}
 
 	function closeMenu() {
+		const body = document.querySelector('html');
 		setMenuOpen(false);
 		body.classList.remove('no-scroll');
 	}
