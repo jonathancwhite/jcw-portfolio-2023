@@ -22,7 +22,6 @@ const Header = () => {
 
 	function closeMenu() {
 		setMenuOpen(false);
-		setLockScroll(false);
 	}
   const router = useRouter();
   return (
