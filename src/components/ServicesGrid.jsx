@@ -173,7 +173,7 @@ const ServicesGrid = ({gridStyle}) => {
 
 				</div>
 				<div className="col filled">
-					<p>Custom sounds scary, but sometimes you want the best experience for your audience and platforms can't provide
+					<p>Custom sounds scary, but sometimes you want the best experience for your audience and platforms can&apos;t provide
 						that luxury without getting in the way. Custom websites offer the flexibility of choice with the added bonus
 						of leaving the restrictions behind. This service offers custom design and development for a non-platform related
 						website for those looking to march to their own drum.</p>
