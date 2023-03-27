@@ -244,8 +244,8 @@ const ServicesGrid = ({gridStyle}) => {
 				<div className="col">
 
 				</div>
-				<div className="col">
-					{/* <h5>SERVICE: WEBSITE MAKEOVERS</h5> */}
+				<div className="col dark">
+					<h5>NEED ANYTHING ELSE?</h5>
 				</div>
 				<div className="col">
 
