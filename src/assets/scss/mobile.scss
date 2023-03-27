@@ -169,7 +169,7 @@
 		transition: transform 500ms ease-in-out;
 		&--items {
 			width: 100%;
-			display: flex;
+			display: none;
 			flex-direction: column;
 			gap: 2rem;
 			padding: 4rem 0;
@@ -245,6 +245,9 @@
 		display: flex;
 		&__menu {
 			display: flex;
+			&__items {
+				display: flex;
+			}
 		}
 	}
 
