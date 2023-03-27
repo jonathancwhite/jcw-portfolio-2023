@@ -199,6 +199,10 @@
 	}
 }
 
+.mobileNav__menu.mobile-open {
+	display: flex;
+}
+
 @media screen and (max-width: 1000px) {
 	.hero {
 		&__container {
@@ -248,7 +252,7 @@
 	.mobileNav {
 		display: flex;
 		&__menu {
-			display: flex;
+			// display: flex;
 			&__items {
 				display: flex;
 			}
