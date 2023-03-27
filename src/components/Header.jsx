@@ -37,9 +37,9 @@ const Header = () => {
 		</div>
 		<div className={menuOpen ? 'mobileNav__menu mobile-open' : 'mobileNav__menu'}>
 			<div className="mobileNav__menu--items">
-				<Link href="/" className={router.pathname == "/" ? "active centered" : "centered"}><a onClick={closeMenu}>Projects</a></Link>
-				<Link href="/services" className={router.pathname == "/services" ? "active centered" : "centered"}><a onClick={closeMenu}>Services</a></Link>
-				<Link href="/about" className={router.pathname == "/about" ? "active centered" : "centered"}><a onClick={closeMenu}>About</a></Link>
+				<Link href="/" className={router.pathname == "/" ? "active centered" : "centered"} legacyBehavior><a onClick={closeMenu}>Projects</a></Link>
+				<Link href="/services" className={router.pathname == "/services" ? "active centered" : "centered"} legacyBehavior><a onClick={closeMenu}>Services</a></Link>
+				<Link href="/about" className={router.pathname == "/about" ? "active centered" : "centered"} legacyBehavior><a onClick={closeMenu}>About</a></Link>
 			</div>
 		</div>
 	</>
