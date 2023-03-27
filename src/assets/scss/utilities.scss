@@ -80,3 +80,16 @@ body {
 	width: 70%;
 	margin: auto;
 }
+
+.active {
+	background: $dark-black;
+	color: #fff;
+	text-underline-offset: 10px;
+	// width:100%;
+	padding: 2px 4px;
+	text-decoration: underline !important;
+	text-decoration-color: $accent-orange !important;
+	&:visited {
+		color: #fff !important;
+	}
+}
