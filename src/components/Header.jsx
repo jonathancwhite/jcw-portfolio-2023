@@ -22,6 +22,7 @@ const Header = () => {
 
 	function closeMenu() {
 		setMenuOpen(false);
+		body.classList.remove('no-scroll');
 	}
   const router = useRouter();
   return (
