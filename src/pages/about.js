@@ -4,6 +4,7 @@ import Header from '@/components/Header'
 import GridHeader from '@/components/GridHeader'
 import Footer from '@/components/Footer'
 import AboutGrid from '@/components/AboutGrid'
+import MobileAbout from '@/components/MobileAbout'
 
 const about = () => {
   return (
@@ -14,6 +15,7 @@ const about = () => {
 		<Header />
 		<GridHeader />
 		<AboutGrid />
+		<MobileAbout />
 		<Footer />
 	</>
   )

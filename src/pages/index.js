@@ -4,6 +4,7 @@ import Hero from '@/components/Hero'
 import GridHeader from '@/components/GridHeader'
 import Grid from '@/components/Grid'
 import Footer from '@/components/Footer'
+import MobileProjects from '@/components/MobileProjects'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
 	  <Hero />
 	  <GridHeader showContact={true}/>
 	  <Grid />
+	  <MobileProjects />
 	  <Footer />
     </>
   )

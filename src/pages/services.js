@@ -4,6 +4,7 @@ import Head from 'next/head';
 import Footer from '@/components/Footer';
 import GridHeader from '@/components/GridHeader';
 import ServicesGrid from '@/components/ServicesGrid';
+import MobileServices from '@/components/MobileServices';
 
 const services = () => {
   return (
@@ -14,6 +15,7 @@ const services = () => {
 		<Header />
 		<GridHeader />
 		<ServicesGrid />
+		<MobileServices />
 		<Footer />
 	</>
   )

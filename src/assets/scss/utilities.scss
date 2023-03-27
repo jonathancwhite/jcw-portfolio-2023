@@ -58,3 +58,23 @@ body {
 		z-index: 999;
 	}
 }
+
+.btn {
+	background: #000;
+	color: #fff;
+	padding: 1rem 2rem;
+	border-radius: 16px;
+	text-decoration: none;
+	&:hover {
+		background: #1d1d1d;
+	}
+}
+
+.centered {
+	text-align: center;
+}
+
+.w-70 {
+	width: 70%;
+	margin: auto;
+}

@@ -1,0 +1,189 @@
+.mobileProjects {
+	display: none;
+	width: 80%;
+	margin: auto;
+	flex-direction: column;
+	margin-top: 2rem;
+	h5 {
+		font-size: 16px;
+		text-transform: uppercase;
+		font-weight: 600;
+		// margin-bottom: 2rem;
+	}
+	&__item {
+		margin: 2rem 0;
+		&--card {
+			width: 100%;
+			height: 100%;
+			border-radius: 16px;
+			filter: drop-shadow(0px 2px 6px #000000a0);
+			background: #fff;
+			img {
+				width: 100%;
+				height: 100%;
+				max-height: 375px;
+				border-radius: 16px 16px 0 0;
+				object-fit: cover;
+				object-position: top;
+			}
+			.cardDetails {
+				padding: 1rem;
+				display: flex;
+				justify-content: space-between;
+				text-transform: uppercase;
+				font-weight: 500;
+				align-items: center;
+			}
+		}
+	}
+
+	.contact {
+		margin-top: 4rem;
+		h5 {
+			padding:0;
+			margin: 0;
+		}
+	}
+}
+
+.mobileServices {
+	display: none;
+	width: 80%;
+	margin: auto;
+	flex-direction: column;
+	margin-top: 4rem;
+	h5 {
+		font-size: 16px;
+		text-transform: uppercase;
+		font-weight: 600;
+	}
+	p {
+		margin-top: 1rem;
+		font-size: 14px;
+	}
+	&__item {
+		margin-top: 2rem;
+		&--card {
+			width: 100%;
+			height: 100%;
+			border-radius: 16px;
+			filter: drop-shadow(0px 2px 6px #000000a0);
+			background: #fff;
+			img {
+				width: 100%;
+				height: 100%;
+				max-height: 375px;
+				border-radius: 16px 16px 0 0;
+				object-fit: cover;
+				object-position: top;
+			}
+			.cardDetails {
+				padding: 1rem;
+				font-weight: 300;
+				align-items: center;
+				p {
+					font-size: 14px;
+				}
+			}
+		}
+	}
+}
+
+.mobileAbout {
+	display: none;
+	width: 80%;
+	margin: auto;
+	flex-direction: column;
+	margin-top: 2rem;
+
+	h5 {
+		font-size: 16px;
+		text-transform: uppercase;
+		font-weight: 600;
+		// margin-bottom: 2rem;
+	}
+
+	&__text {
+		margin-top: 1rem;
+		display: grid;
+		grid-template-columns: 30% 70%;
+		gap: 1rem;
+		img {
+			width: 100%;
+			height: 100%;
+			border-radius: 16px;
+		}
+	}
+
+	.mt-2 {
+		margin-top: 4rem;
+	}
+
+	.experience__item {
+		margin-top: 1.5rem;
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+		align-items: flex-end;
+
+		.date {
+			color: $accent-orange;
+			text-transform: uppercase;
+			font-weight: 300;
+		}
+
+		.position {
+			width: 50%;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-end;
+			h5 {
+				margin: 0;
+				font-weight: 600;
+				// justify-self: flex-start;
+			}
+			h6 {
+				font-weight: 400;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.hero {
+		&__container {
+			&--left {
+				display: none;
+			}
+			&--right {
+				h1 {
+					font-size: 40px;
+				}
+				p {
+					font-size: 20px;
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	.gridHeader {
+		display: none;
+	}
+
+	.grid {
+		display: none;
+	}
+
+	.mobileProjects {
+		display: flex;
+	}
+
+	.mobileServices {
+		display: flex;
+	}
+
+	.mobileAbout {
+		display: flex;
+	}
+}
