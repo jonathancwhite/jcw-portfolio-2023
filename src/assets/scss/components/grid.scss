@@ -5,11 +5,13 @@
 	display: grid;
 	background-color: $grid-bg;
 	border-top: 1px solid #000;
+	min-width: 100vw;
 	&__row {
 		display: grid;
-		grid-template-columns: 5% 20% 20% 20% 20% 20% 5%;
+		grid-template-columns: 8% 20% 22% 22% 20% 8%;
 		gap: 30px;
 		height: 100%;
+		min-width: 100vw;
 	}
 }
 
@@ -53,7 +55,7 @@
 }
 
 .row:nth-child(even) {
-	height: 175px;
+	height: 200px;
 }
 
 .filled {
@@ -61,7 +63,7 @@
 	width: 100%;
 	img {
 		max-width: 100%;
-		max-height: 175px;
+		max-height: 200px;
 		object-fit: cover;
 		object-position: top;
 		cursor: pointer;
