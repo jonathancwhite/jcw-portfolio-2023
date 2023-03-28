@@ -5,10 +5,10 @@
 	display: grid;
 	background-color: $grid-bg;
 	border-top: 1px solid #000;
-	min-width: 100vw;
+	min-width: 101vw;
 	&__row {
 		display: grid;
-		grid-template-columns: 8% 20% 22% 22% 20% 8%;
+		grid-template-columns: 8% 20% 20% 20% 20% 8%;
 		gap: 30px;
 		height: 100%;
 		min-width: 100vw;
