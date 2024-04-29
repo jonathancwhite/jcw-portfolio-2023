@@ -97,24 +97,29 @@ const AboutGrid = ({ gridStyle }) => {
 					<div className='col'>
 						<div className='workHistory'>
 							<div className='workHistory__item'>
+								<h6 className='orange'>2022 - Present</h6>
+								<div className='workHistory__item--position'>
+									<h6>SalesWarp - Remote</h6>
+									<h5>Full Stack Engineer</h5>
+								</div>
+							</div>
+							<div className='workHistory__item'>
 								<h6 className='orange'>2023 - Present</h6>
 								<div className='workHistory__item--position'>
 									<h6>Auburn University - Auburn, AL</h6>
-									<h5>Application Systems Analyst</h5>
+									<h5>
+										Application Systems Analyst - Contract
+									</h5>
 								</div>
 							</div>
 							<div className='workHistory__item'>
 								<h6 className='orange'>2023 - Present</h6>
 								<div className='workHistory__item--position'>
 									<h6>DEVGRU - Remote</h6>
-									<h5>Full Stack Engineer</h5>
-								</div>
-							</div>
-							<div className='workHistory__item'>
-								<h6 className='orange'>2022 - 2023</h6>
-								<div className='workHistory__item--position'>
-									<h6>SalesWarp - Remote</h6>
-									<h5>Full Stack Engineer</h5>
+									<h5>
+										Software Engineer; Ecommerce Lead -
+										Contract
+									</h5>
 								</div>
 							</div>
 							<div className='workHistory__item'>
