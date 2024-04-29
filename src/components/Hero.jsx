@@ -7,7 +7,7 @@ const Hero = () => {
 				<div className='hero__container'>
 					<div className='hero__container--left'></div>
 					<div className='hero__container--right'>
-						<h1>Founder & Creator of Kodiak Agency</h1>
+						<h1>Software Engineer & Ecommerce Guru</h1>
 						<p>
 							On a mission to make memorable experiences through
 							digital design by pushing the boundaries of
