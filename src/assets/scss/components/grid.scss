@@ -1,4 +1,4 @@
-@import '../utilities.scss';
+@import "../utilities.scss";
 
 .grid {
 	margin-top: $margin;
@@ -30,12 +30,12 @@
 		text-transform: uppercase;
 		opacity: 0;
 		transition: opacity 300ms ease-in;
-		font-family: 'Inter';
+		font-family: "Inter";
 		font-size: 12px;
 	}
 	h5 {
 		padding: 0 1rem;
-		font-family: 'Inter';
+		font-family: "Inter";
 		font-weight: 300;
 	}
 	p {
@@ -62,13 +62,12 @@
 	height: 100%;
 	width: 100%;
 	img {
-		max-width: 100%;
+		width: 100%;
 		max-height: 265px;
 		object-fit: cover;
 		object-position: top;
 		cursor: pointer;
 		&:hover {
-
 		}
 	}
 }
@@ -94,7 +93,7 @@
 	max-height: 100%;
 	overflow: hidden;
 	p {
-		font-family: 'Inter', sans-serif;
+		font-family: "Inter", sans-serif;
 		padding: 0 1rem;
 	}
 	div {
@@ -114,12 +113,11 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: flex-end;
-		font-family: 'Inter';
+		font-family: "Inter";
 		text-transform: uppercase;
 		margin-top: 1rem;
 		h6 {
 			font-weight: 500;
-
 		}
 		&--position {
 			width: 50%;
