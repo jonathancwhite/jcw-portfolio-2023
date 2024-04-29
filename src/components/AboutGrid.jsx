@@ -153,7 +153,7 @@ const AboutGrid = ({ gridStyle }) => {
 					<div className='col'></div>
 					<div className='col filled gridText'>
 						<p className='aboutText'>
-							For the last 7 years, I&apos;ve worked as a Full
+							For the last 4 years, I&apos;ve worked as a Full
 							Stack Engineer & Web Developer with some amazing
 							coworkers, agencies, and clients in the digital
 							space. My expertise lies in website design and
