@@ -435,6 +435,7 @@ const Grid = ({ gridStyle }) => {
 					<div className='col filled'>
 						<Link href='https://yhm.net' target='_blank'>
 							<Image
+								className='img img__long'
 								src={yhm}
 								alt='Yankee Hill Machining Website'
 								onMouseEnter={handleMouseEnterYHM}
