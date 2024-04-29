@@ -40,7 +40,7 @@
 	.contact {
 		margin-top: 4rem;
 		h5 {
-			padding:0;
+			padding: 0;
 			margin: 0;
 		}
 	}
@@ -258,7 +258,6 @@
 			}
 		}
 	}
-
 }
 
 @media screen and (max-width: 650px) {
@@ -283,5 +282,13 @@
 	.btn {
 		padding: 0.5rem 1rem;
 		font-size: 12px;
+	}
+}
+
+@media screen and (min-width: 1921px) {
+	.portrait {
+		img {
+			max-width: 1000px !important;
+		}
 	}
 }
