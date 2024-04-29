@@ -6,6 +6,7 @@ import maxOrdGear from "../assets/img/maxordgear.png";
 import mileHigh from "../assets/img/milehigh.png";
 import lawrenceAmmo from "../assets/img/lawrenceammo.png";
 import mtCommodoreAme from "../assets/img/mtcommodoreame.png";
+import jefeQuality from "../assets/img/jefeq-sitebuild.png";
 import yhm from "../assets/img/yankeehill.png";
 import Image from "next/image";
 import Link from "next/link";
@@ -20,6 +21,7 @@ const Grid = ({ gridStyle }) => {
 	const [isHoveringLA, setHoveringLA] = useState(false);
 	const [isHoveringMC, setHoveringMC] = useState(false);
 	const [isHoveringYHM, setHoveringYHM] = useState(false);
+	const [isHoveringJQ, setHoveringJQ] = useState(false);
 
 	const handleMouseEnter = () => {
 		setHovering(true);
@@ -44,6 +46,10 @@ const Grid = ({ gridStyle }) => {
 	};
 	const handleMouseEnterYHM = () => {
 		setHoveringYHM(true);
+	};
+
+	const handleMouseEnterJQ = () => {
+		setHoveringJQ(true);
 	};
 
 	const handleMouseLeave = () => {
@@ -71,6 +77,10 @@ const Grid = ({ gridStyle }) => {
 		setHoveringYHM(false);
 	};
 
+	const handleMouseLeaveJQ = () => {
+		setHoveringJQ(false);
+	};
+
 	return (
 		<div className='grid' id='grid__outerContainer'>
 			<div className='row row__title'>
@@ -79,15 +89,19 @@ const Grid = ({ gridStyle }) => {
 					<div className='col'>
 						<div
 							className={
-								isHovering ? "col__title hovered" : "col__title"
+								isHoveringJQ
+									? "col__title hovered"
+									: "col__title"
 							}>
-							Kodiak Agency
+							Jefe Quality - Jefe Cigars (IN PROGRESS)
 						</div>
 						<div
 							className={
-								isHovering ? "col__title hovered" : "col__title"
+								isHoveringJQ
+									? "col__title hovered"
+									: "col__title"
 							}>
-							Website
+							Build
 						</div>
 					</div>
 					<div className='col'></div>
@@ -100,6 +114,49 @@ const Grid = ({ gridStyle }) => {
 				<div className='grid__row'>
 					<div className='col'></div>
 					<div className='col filled'>
+						<Link href='https://jefecigarco.com/' target='_blank'>
+							<Image
+								src={jefeQuality}
+								alt='Jefe Quality Website Preview'
+								onMouseEnter={handleMouseEnterJQ}
+								onMouseLeave={handleMouseLeaveJQ}
+							/>
+						</Link>
+					</div>
+					<div className='col'></div>
+					<div className='col'></div>
+					<div className='col'></div>
+					<div className='col'></div>
+				</div>
+			</div>
+			<div className='row row__title'>
+				<div className='grid__row'>
+					<div className='col'></div>
+					<div className='col'></div>
+					<div className='col'>
+						<div
+							className={
+								isHovering ? "col__title hovered" : "col__title"
+							}>
+							Kodiak Agency
+						</div>
+						<div
+							className={
+								isHovering ? "col__title hovered" : "col__title"
+							}>
+							Design & Build
+						</div>
+					</div>
+					<div className='col'></div>
+					<div className='col'></div>
+					<div className='col'></div>
+				</div>
+			</div>
+			<div className='row row__work'>
+				<div className='grid__row'>
+					<div className='col'></div>
+					<div className='col'></div>
+					<div className='col filled'>
 						<Link href='https://builtbykodiak.com' target='_blank'>
 							<Image
 								src={kodiakAgency}
@@ -109,7 +166,6 @@ const Grid = ({ gridStyle }) => {
 							/>
 						</Link>
 					</div>
-					<div className='col'></div>
 					<div className='col'></div>
 					<div className='col'></div>
 					<div className='col'></div>
@@ -136,7 +192,7 @@ const Grid = ({ gridStyle }) => {
 									? "col__title hovered"
 									: "col__title"
 							}>
-							Website
+							Design
 						</div>
 					</div>
 					<div className='col'></div>
@@ -182,7 +238,7 @@ const Grid = ({ gridStyle }) => {
 									? "col__title hovered"
 									: "col__title"
 							}>
-							Website
+							Design & Build
 						</div>
 					</div>
 					<div className='col'></div>
@@ -231,7 +287,7 @@ const Grid = ({ gridStyle }) => {
 									? "col__title hovered"
 									: "col__title"
 							}>
-							Website Design
+							Design & Build
 						</div>
 					</div>
 					<div className='col'></div>
@@ -273,7 +329,7 @@ const Grid = ({ gridStyle }) => {
 									? "col__title hovered"
 									: "col__title"
 							}>
-							Website
+							Design & Build
 						</div>
 					</div>
 					<div className='col'></div>
@@ -322,7 +378,7 @@ const Grid = ({ gridStyle }) => {
 									? "col__title hovered"
 									: "col__title"
 							}>
-							Website Design
+							Design
 						</div>
 					</div>
 					<div className='col'></div>
@@ -352,53 +408,6 @@ const Grid = ({ gridStyle }) => {
 					<div className='col'>
 						<div
 							className={
-								isHoveringMC
-									? "col__title hovered"
-									: "col__title"
-							}>
-							Mt. Commodore
-						</div>
-						<div
-							className={
-								isHoveringMC
-									? "col__title hovered"
-									: "col__title"
-							}>
-							Website
-						</div>
-					</div>
-					<div className='col'></div>
-					<div className='col'></div>
-					<div className='col'></div>
-				</div>
-			</div>
-			<div className='row row__work'>
-				<div className='grid__row'>
-					<div className='col'></div>
-					<div className='col'></div>
-					<div className='col filled'>
-						<Link href='https://mtcommodoreame.com' target='_blank'>
-							<Image
-								src={mtCommodoreAme}
-								alt='Mt. Commodore AME Church Website'
-								onMouseEnter={handleMouseEnterMC}
-								onMouseLeave={handleMouseLeaveMC}
-							/>
-						</Link>
-					</div>
-					<div className='col'></div>
-					<div className='col'></div>
-					<div className='col'></div>
-				</div>
-			</div>
-			<div className='row row__title'>
-				<div className='grid__row'>
-					<div className='col'></div>
-					<div className='col'></div>
-					<div className='col'></div>
-					<div className='col'>
-						<div
-							className={
 								isHoveringYHM
 									? "col__title hovered"
 									: "col__title"
@@ -411,16 +420,16 @@ const Grid = ({ gridStyle }) => {
 									? "col__title hovered"
 									: "col__title"
 							}>
-							Website
+							Design & Build
 						</div>
 					</div>
+					<div className='col'></div>
 					<div className='col'></div>
 					<div className='col'></div>
 				</div>
 			</div>
 			<div className='row row__work'>
 				<div className='grid__row'>
-					<div className='col'></div>
 					<div className='col'></div>
 					<div className='col'></div>
 					<div className='col filled'>
@@ -433,6 +442,7 @@ const Grid = ({ gridStyle }) => {
 							/>
 						</Link>
 					</div>
+					<div className='col'></div>
 					<div className='col'></div>
 					<div className='col'></div>
 				</div>
