@@ -1,15 +1,15 @@
-import React, { useState } from "react";
-import kodiakAgency from "../assets/img/kodiakagency.png";
-import creatorCarts from "../assets/img/creatorcarts.png";
-import ballisticAgency from "../assets/img/ballisticagency.png";
-import maxOrdGear from "../assets/img/maxordgear.png";
-import mileHigh from "../assets/img/milehigh.png";
-import lawrenceAmmo from "../assets/img/lawrenceammo.png";
-import mtCommodoreAme from "../assets/img/mtcommodoreame.png";
-import jefeQuality from "../assets/img/jefeq-sitebuild.png";
-import yhm from "../assets/img/yankeehill.png";
-import Image from "next/image";
-import Link from "next/link";
+import React, { useState } from 'react';
+import kodiakAgency from '../assets/img/kodiakagency.png';
+import creatorCarts from '../assets/img/creatorcarts.png';
+import ballisticAgency from '../assets/img/ballisticagency.png';
+import maxOrdGear from '../assets/img/maxordgear.png';
+import mileHigh from '../assets/img/milehigh.png';
+import lawrenceAmmo from '../assets/img/lawrenceammo.png';
+import mtCommodoreAme from '../assets/img/mtcommodoreame.png';
+import jefeQuality from '../assets/img/jefeqclub.png';
+import yhm from '../assets/img/yankeehill.png';
+import Image from 'next/image';
+import Link from 'next/link';
 
 const Grid = ({ gridStyle }) => {
 	// if you see this, I'm sorry... it's like 2am and brain don't work
@@ -87,20 +87,10 @@ const Grid = ({ gridStyle }) => {
 				<div className='grid__row'>
 					<div className='col'></div>
 					<div className='col'>
-						<div
-							className={
-								isHoveringJQ
-									? "col__title hovered"
-									: "col__title"
-							}>
+						<div className={isHoveringJQ ? 'col__title hovered' : 'col__title'}>
 							Jefe Quality - Jefe Cigars (IN PROGRESS)
 						</div>
-						<div
-							className={
-								isHoveringJQ
-									? "col__title hovered"
-									: "col__title"
-							}>
+						<div className={isHoveringJQ ? 'col__title hovered' : 'col__title'}>
 							Build
 						</div>
 					</div>
@@ -134,16 +124,10 @@ const Grid = ({ gridStyle }) => {
 					<div className='col'></div>
 					<div className='col'></div>
 					<div className='col'>
-						<div
-							className={
-								isHovering ? "col__title hovered" : "col__title"
-							}>
+						<div className={isHovering ? 'col__title hovered' : 'col__title'}>
 							Kodiak Agency
 						</div>
-						<div
-							className={
-								isHovering ? "col__title hovered" : "col__title"
-							}>
+						<div className={isHovering ? 'col__title hovered' : 'col__title'}>
 							Design & Build
 						</div>
 					</div>
@@ -178,20 +162,10 @@ const Grid = ({ gridStyle }) => {
 					<div className='col'></div>
 					<div className='col'></div>
 					<div className='col'>
-						<div
-							className={
-								isHoveringBA
-									? "col__title hovered"
-									: "col__title"
-							}>
+						<div className={isHoveringBA ? 'col__title hovered' : 'col__title'}>
 							Ballistic Agency
 						</div>
-						<div
-							className={
-								isHoveringBA
-									? "col__title hovered"
-									: "col__title"
-							}>
+						<div className={isHoveringBA ? 'col__title hovered' : 'col__title'}>
 							Design
 						</div>
 					</div>
@@ -205,9 +179,7 @@ const Grid = ({ gridStyle }) => {
 					<div className='col'></div>
 					<div className='col'></div>
 					<div className='col filled'>
-						<Link
-							href='https://ballisticagency.com'
-							target='_blank'>
+						<Link href='https://ballisticagency.com' target='_blank'>
 							<Image
 								src={ballisticAgency}
 								alt='Ballistic Agency Website Design'
@@ -224,20 +196,10 @@ const Grid = ({ gridStyle }) => {
 					<div className='col'></div>
 					<div className='col'></div>
 					<div className='col'>
-						<div
-							className={
-								isHoveringMH
-									? "col__title hovered"
-									: "col__title"
-							}>
+						<div className={isHoveringMH ? 'col__title hovered' : 'col__title'}>
 							Mile High Shooting
 						</div>
-						<div
-							className={
-								isHoveringMH
-									? "col__title hovered"
-									: "col__title"
-							}>
+						<div className={isHoveringMH ? 'col__title hovered' : 'col__title'}>
 							Design & Build
 						</div>
 					</div>
@@ -251,9 +213,7 @@ const Grid = ({ gridStyle }) => {
 					<div className='col'></div>
 					<div className='col'></div>
 					<div className='col filled'>
-						<Link
-							href='https://milehighshooting.com'
-							target='_blank'>
+						<Link href='https://milehighshooting.com' target='_blank'>
 							<Image
 								src={mileHigh}
 								alt='Mile High Website Design'
@@ -273,20 +233,10 @@ const Grid = ({ gridStyle }) => {
 					<div className='col'></div>
 					<div className='col'></div>
 					<div className='col'>
-						<div
-							className={
-								isHoveringLA
-									? "col__title hovered"
-									: "col__title"
-							}>
+						<div className={isHoveringLA ? 'col__title hovered' : 'col__title'}>
 							Lawrence Ammo
 						</div>
-						<div
-							className={
-								isHoveringLA
-									? "col__title hovered"
-									: "col__title"
-							}>
+						<div className={isHoveringLA ? 'col__title hovered' : 'col__title'}>
 							Design & Build
 						</div>
 					</div>
@@ -315,20 +265,10 @@ const Grid = ({ gridStyle }) => {
 				<div className='grid__row'>
 					<div className='col'></div>
 					<div className='col'>
-						<div
-							className={
-								isHoveringMO
-									? "col__title hovered"
-									: "col__title"
-							}>
+						<div className={isHoveringMO ? 'col__title hovered' : 'col__title'}>
 							Max Ord
 						</div>
-						<div
-							className={
-								isHoveringMO
-									? "col__title hovered"
-									: "col__title"
-							}>
+						<div className={isHoveringMO ? 'col__title hovered' : 'col__title'}>
 							Design & Build
 						</div>
 					</div>
@@ -364,20 +304,10 @@ const Grid = ({ gridStyle }) => {
 					<div className='col'></div>
 					<div className='col'></div>
 					<div className='col'>
-						<div
-							className={
-								isHoveringCC
-									? "col__title hovered"
-									: "col__title"
-							}>
+						<div className={isHoveringCC ? 'col__title hovered' : 'col__title'}>
 							Creator Carts
 						</div>
-						<div
-							className={
-								isHoveringCC
-									? "col__title hovered"
-									: "col__title"
-							}>
+						<div className={isHoveringCC ? 'col__title hovered' : 'col__title'}>
 							Design
 						</div>
 					</div>
@@ -406,20 +336,10 @@ const Grid = ({ gridStyle }) => {
 					<div className='col'></div>
 					<div className='col'></div>
 					<div className='col'>
-						<div
-							className={
-								isHoveringYHM
-									? "col__title hovered"
-									: "col__title"
-							}>
+						<div className={isHoveringYHM ? 'col__title hovered' : 'col__title'}>
 							YHM MFG.
 						</div>
-						<div
-							className={
-								isHoveringYHM
-									? "col__title hovered"
-									: "col__title"
-							}>
+						<div className={isHoveringYHM ? 'col__title hovered' : 'col__title'}>
 							Design & Build
 						</div>
 					</div>
